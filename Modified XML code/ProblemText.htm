@@ -1,0 +1,21 @@
+    
+    	<p>It is given a modified XML code. The modified XML code uses the symbols "["and"]" which are the opening and closing tag, respectively, instead of the standard symbols "<" and ">". Check if all the tags in the code are properly nested (code is valid), i.e. does every opening tag have suitable closing tag with the same name at the appropriate place in the code. For simplification, it is given that every opening tag must have a closing tag and tags do not have attributes. </p>
+<p>The number of code lines is given in the first input line.  Then each XML tag is written in a new line. The output should print 1 for valid or 0 for invalid code. </p>
+
+<p>Explanation: In the modified XML code, every opening tag is structured as [nameOfTag], and every closing tag as [/ nameOfTag].</p>
+
+<p>Example for correct nested tags in XML:<br>
+</p><pre>[tag1]
+[tag2] 
+data
+[/tag2] 
+[/tag1] 
+</pre><p></p>
+<p>Example for incorrect nested tags in XML:<br>
+</p><pre>[tag1]
+[tag2] 
+Podatok
+[/tag1]
+[/tag2]</pre><p></p>
+<p>Име на класата (Java): CheckXML</p>
+    
